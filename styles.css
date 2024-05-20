@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #87CEEB; /* Azul celeste */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Estilização do Carrossel */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Grid de Produtos */
+.container {
+    margin-top: 20px;
+}
+
+/* Cartões */
+.card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f5f5dc; /* Bege */
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #87CEEB; /* Azul celeste */
+}
+
+.card-text {
+    color: #00bfff;
+}
+
+.btn-primary {
+    background-color: #87CEEB; /* Azul celeste */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #00BFFF; /* Azul mais escuro */
+}
+
+/* Estilos de responsividade */
+@media (min-width: 1024px) {
+    .col-lg-4 {
+        width: 33.3333%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .col-md-6 {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
